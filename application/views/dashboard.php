@@ -8,7 +8,7 @@
     <img src="<?php echo base_url('assets/img/slider1.jpg') ?>" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+    <img src="<?php echo base_url('assets/img/slider1.jpg') ?>" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -23,7 +23,7 @@
 
     <div class="row text-center mt-4">
         <?php foreach ($barang as $brg) :   ?>
-            <div class="card ml-3" style="width: 16rem;">
+            <div class="card ml-3 mb-3" style="width: 16rem;">
                 <img src="<?php echo base_url().'/uploads/'.$brg->gambar ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title mb-2"><?php echo $brg->nama_barang ?></h5>
